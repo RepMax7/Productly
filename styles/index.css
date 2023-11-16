@@ -196,6 +196,9 @@ section {
   align-items: center;
 }
 
+.section4__texts-div p{
+  padding-left: 20px;
+}
 .section4__texts-div img {
   width: 35px;
   height: 35px;
