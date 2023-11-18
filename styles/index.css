@@ -124,7 +124,7 @@ section {
 }
 
 .tools_option h3 {
-  color: #2F281E;
+  color: #2f281e;
   font-family: Poppins;
   font-size: 22px;
   font-style: normal;
@@ -140,7 +140,6 @@ section {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-
 }
 
 .tools_button {
@@ -152,7 +151,7 @@ section {
 .tools_button:hover {
   background-color: black;
   transition: 0.4s;
-  transform: scale(1.3)
+  transform: scale(1.3);
 }
 
 /* the section 3 starts here  */
@@ -165,26 +164,18 @@ section {
 }
 
 .section3__texts,
-.section4__texts {
-  width: 40%;
-  height: auto;
+.section4__texts,
+.section3 img {
+  flex-grow: 1;
 }
 
 .section3 img {
-  height: 500px;
-  width: 40%;
   margin-left: 150px;
 }
 
 .section3 h2,
 .section4 h2 {
   text-align: start;
-}
-
-.section4_img {
-  height: 400;
-  width: 40%;
-
 }
 
 .section4__texts {
@@ -196,7 +187,7 @@ section {
   align-items: center;
 }
 
-.section4__texts-div p{
+.section4__texts-div p {
   padding-left: 20px;
 }
 .section4__texts-div img {
@@ -211,8 +202,7 @@ footer {
   align-items: center;
   margin-top: 200px;
   width: 1050px;
-   height: 300px;
-
+  height: 300px;
 }
 
 .container {
@@ -229,13 +219,12 @@ footer {
 
 li:hover {
   transform: scale(1.2);
-  transition: .4s;
+  transition: 0.4s;
   background-color: darkgrey;
   border-radius: 10px;
 }
 
 .container__div {
-
   display: grid;
 }
 
@@ -253,5 +242,5 @@ li:hover {
 
 .container__div button:hover {
   transform: scale(1.2);
-  transition: .3s;
+  transition: 0.3s;
 }
